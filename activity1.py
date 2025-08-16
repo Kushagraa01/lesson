@@ -1,12 +1,8 @@
-def countingbit(n):
+num1=int(input("Enter first value: "))
+num2=int(input("Enter secound value: "))
 
-    count =0
-    while (n):
-        count +=1
-        n >>=1
-
-    return count
-
-
-num= int(input("Enter a value: "))
-print("total bits :",countingbit(num))
+print("By using 'NOT' operater on first value :", ~num1)
+print("By using 'NOT' operater on secound value :", ~num2)
+print("By using 'AND' operater ,first value & secound value :", num1 & num2)
+print("By using 'OR' operater ,first value | secound value :", num1 | num2)
+print("By using 'XOR' operater ,first value ^ secound value :", num1 ^ num2)
